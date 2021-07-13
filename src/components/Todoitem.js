@@ -1,6 +1,6 @@
 // import React, { Component } from 'react';
 import React, {Component} from 'react';
-import img from './components/img';
+
 class Todoitem extends Component {
     render() {
      

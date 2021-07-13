@@ -3,6 +3,7 @@ import './App.css';
 // import Todoitem from './components/Todoitem';
 import React,{ Component } from 'react';
 import Todoitem from './components/Todoitem';
+import Hinhanh from './components/Hinhanh';
 
 class App extends Component {
   constructor(){
@@ -24,7 +25,7 @@ this.listIMG = [
          }
          
       {
-        this.listIMG.map((item,index)=><img key={index} src={item} />)
+        this.listIMG.map((a,b)=> <Hinhanh key={b} src={a} />)
       }
       
       </div>
