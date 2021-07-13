@@ -1,5 +1,6 @@
 // import React, { Component } from 'react';
 import React, {Component} from 'react';
+import img from './components/img';
 class Todoitem extends Component {
     render() {
      
@@ -7,6 +8,7 @@ class Todoitem extends Component {
             <div className="Todoitem"> 
 
             <p>{this.props.title}</p>
+            
             </div>
         )
     }
